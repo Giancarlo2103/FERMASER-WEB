@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <title>FERMASER</title>
+
+</head>
+
+<body class="bg-gray container">
+  <div class="logo_form">
+    <h1 class="">
+      <a href="index.html">FERMASER</a>
+    </h1>
+  </div>
+
+  <div class="block-reg">
+    <h2 class="form_title">Crear cuenta</h2>
+    <div class="btns_login">
+      <a href="#">
+        <a id="loginfacebook">Login to Facebook</a>
+        <div id="user"></div>
+        <a id="logoutfacebook">Cerrar sesión</a>
+      </a>
+    </div>
+
+    <form class="form" action="index.html" method="post" onsubmit="return validar();">
+      <input type="text" name="text" placeholder="Nombre Completo" value="" id="name">
+      <input type="email" name="email" placeholder="Email" value="" id="email">
+      <input type="password" name="password" placeholder="Contraseña" value="" id="contraseña">
+      <input type="password" name="confirm" placeholder="Confirmar Contraseña" value="" id="confirmar">
+      <input type="submit" name="" class="btn-sumbit" value="CREAR TU CUENTA"  id="submit">
+    </form>
+    <script src="js/jquery.js"></script>
+    <script src="js/fb.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+            $('#loginfacebook').click(function(){
+
+                loginUsingFacebook();
+
+            });
+            $('#logoutfacebook').click(function(){
+
+                logoutFacebook();
+
+            });
+        })
+
+    </script>
+  </div>
+
+<script src="js/main.js">
+
+
+
+</script>
+</body>
+</html>

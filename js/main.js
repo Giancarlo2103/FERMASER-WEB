@@ -1,5 +1,4 @@
 
-// alert("hola");
 function validar() {
 
   var username = document.getElementById('name').value;

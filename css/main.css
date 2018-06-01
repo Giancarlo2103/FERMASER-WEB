@@ -44,7 +44,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
- /*fin del reset*/
+
 
 .container{
   width: 1000px;
@@ -121,7 +121,7 @@ table {
   background:salmon;
 }
 .btn-sumbit{
-  background:#194769;
+  background:#4267b2;
   color: white;
   border-radius: 17px;
   text-decoration: none;
@@ -129,7 +129,6 @@ table {
 }
 
 
-/* banner ----------------------------------------------*/
 
 
 .parallax {
@@ -252,9 +251,7 @@ box-shadow: inset 0 0 0 3px #3a7999;
 
 }
 
-/* fin banner -----------------------------------*/
 
-/*-bloque about------------------------------------*/
 .about {
   text-align: center;
   margin-bottom: 40px;
@@ -300,8 +297,7 @@ box-shadow: inset 0 0 0 3px #3a7999;
 .btn-dark:hover{
   background-color: #2E383F;
 }
-/*fin bloque about---------------------------------*/
-/*productos-------------------------------*/
+
 .productos{
   margin-bottom:60px;
   margin-top: 20px;
@@ -420,13 +416,13 @@ box-shadow: inset 0 0 0 3px #3a7999;
 
   }
 
-/* fin stories ---------------------*/
+
 
 iframe {
 	width: 100%;
 	display: block;
 }
-/* footer -----------------------*/
+
 .footer {
 	background-color: #282D4F;
 	color: white;
@@ -478,16 +474,15 @@ iframe {
   font-family: helvetica; cursive
   padding-top: 10px;
 }
-/* fin footer ---------------------*/
 
-/* form_art -------------------*/
+
   .logo_form h1 a{
 
     text-decoration: none;
     font-weight: bold;
     font-size: 1.6rem;
     color: black;
-    font-family: 'Flamenco', cursive;
+    font-family: helvetica;
     text-align: center;
     display: block;
     padding: 2rem;
@@ -495,8 +490,8 @@ iframe {
 
 
 
-  /* form ----------------------*/
-  .block-form {
+
+  .block-reg{
     background: #fff;
     width: 500px;
     height: 500px;
@@ -530,11 +525,23 @@ iframe {
     margin-right: 75px;
   }
 
-
-
-
-
-
-
-  /* fin form -------------------*/
-/* fin form_art ------------------*/
+  #loginfacebook{
+      color: white;
+      padding: 7px 24px;
+      line-height: 21px;
+      background-color: #4267b2;
+      cursor: pointer;
+      border-radius: 7px;
+      font-family: arial;
+      font-size: 12px;
+  }
+  #logoutfacebook{
+      color: #000;
+      padding: 10px;
+      background-color: chocolate;
+      cursor: pointer;
+      border-radius: 7px;
+      font-family: arial;
+      font-size: 12px;
+      display: none;
+  }
